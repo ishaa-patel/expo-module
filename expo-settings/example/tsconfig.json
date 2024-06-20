@@ -3,8 +3,12 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "au.com.hotbet": ["../src/index"],
-      "au.com.hotbet/*": ["../src/*"]
+      "au.com.hotbet": [
+        "../src/index"
+      ],
+      "au.com.hotbet/*": [
+        "../src/*"
+      ]
     }
   }
 }
