@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "au.com.hotbet": ["../src/index"],
+      "au.com.hotbet/*": ["../src/*"]
+    }
+  }
+}
